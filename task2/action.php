@@ -7,14 +7,12 @@ if (isset($_GET["name"])){
     $name = htmlspecialchars($_GET["name"]);
     $name = trim($name);
     $name = strtolower($name);
-    $name = strtolower($name);
     $name = ucfirst($name);
 }
 
 if (isset($_GET["surname"])){
     $surname = htmlspecialchars($_GET["surname"]);
     $surname = trim($name);
-    $surname = strtolower($name);
     $surname = strtolower($name);
     $surname = ucfirst($name);
 }
