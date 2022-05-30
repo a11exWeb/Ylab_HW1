@@ -24,8 +24,6 @@ if (isset($_GET['name']) && isset($_GET['surname'])){
 
         $query->execute($data);
 
-        $result = true;
-
         echo "Привет, $name $surname.";
 
         echo "<br>";
